@@ -12,7 +12,6 @@ from django.views.generic import View
 import logging
 
 # Log everything, and send it to stderr.
-logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger('djangojsonrpc')
 
 class JsonRpcView(View):
